@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Furniture Website</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Link to Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/fav-icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <!-- Nav List -->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+            <!-- Logo -->
+            <a href="#" class="logo">
+                Pro<span>ject</span>
+            </a>
+
+            <!-- Nav Icons -->
+            <div class="nav-icons">
+                <i class='bx bx-cart-alt' id="cart-icon"></i>
+                <i class='bx bx-user' id="user-icon"></i>
+            </div>
+
+            <!------Cart------->
+            <div class="cart">
+                <div class="cart-content">
+                    <!---- Box 1--->
+                    <div class="cart-box">
+                        <img src="img/products1.png" alt="" srcset="">
+                        <div class="cart-text">
+                            <h3> Soft Furniture</h3>
+                            <span>$150</span>
+                            <span>x1</span>
+                        </div> 
+                        <i class='bx bx-trash'></i>             
+                    </div>
+                    <!----Box 2-----> 
+                    <div class="cart-box">
+                        <img src="img/products2.png" alt="">
+                        <div class="cart-text">
+                            <h3> Soft Furniture</h3>
+                            <span>$150</span>
+                            <span>x1</span>
+                        </div> 
+                        <i class='bx bx-trash'></i>               
+                    </div> 
+                    <div class="total">
+                        <h3> 2 Items</h3>
+                        <span>Total: $300</span>
+                    </div>
+                    <a href="#" class="btn"> Proceed To Pay </a>
+                </div>
+            </div>
+
+            <!---Login Form--->
+            <div class="login-form">
+                <!--Form-->
+                <form actions="">
+                    <h2>Login To Continue</h2>
+                    <input type="email" name="" id="" placeholder="Enter Your Email..." required>
+                    <input type="password" name="" id="" placeholder="Enter Correct Password..." required>
+                    <a href="#">Forget Password?</a>
+                    <input type="submit" value="Log In" class="btn">
+                    <a href="#">Create Account</a>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Link to the java script file  -->
+    <script src="main.js"></script>
+</body>
+</html>
